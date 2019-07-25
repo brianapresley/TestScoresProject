@@ -20,14 +20,14 @@ namespace TestScoresProject {
             scores[11] = 63;
 
 
-            int total = 0;
+            decimal total = 0;
             int index = 0;
             while (index < 12) {
                 total = total + scores[index];
                 index = index + 1;
             }
-            int average = total / 12;
-            Console.WriteLine($"The Average is {average}%");
+            decimal average = total / 12;
+            Console.WriteLine($"The Average is {average}%.");
         }
     }
 }
